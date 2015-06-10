@@ -1,0 +1,9 @@
+mixin product(name,price,promotions)
+	li.product
+		h3= name
+		p.price= price
+		if promotions
+			ul.promotions
+				- for (var i=0,il=promotions.length;i<il;i++)
+					li
+						a(href='#')= promotions[i]

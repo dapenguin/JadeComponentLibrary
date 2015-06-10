@@ -1,0 +1,20 @@
+{
+  "name": "JadeComponentLibrary",
+  "version": "0.0.1",
+  "description": "Attempt to set up a Component Library using Jade as a template engine",
+  "main": ".",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Jeffery",
+  "license": "ISC",
+  "devDependencies": {
+    "jade": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.0.0",
+    "grunt-http-server": "^1.4.0",
+    "time-grunt": "^1.2.1",
+    "grunt-contrib-jade": "^0.14.1"
+  }
+}
